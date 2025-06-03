@@ -1,0 +1,24 @@
+
+  body {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  }
+  table {
+    width: 70%;
+    border-collapse: collapse;
+    /* border-bottom: 1px solid #6678b1; */
+    color: #669;
+    margin: 20px 0;
+  }
+  thead th {
+    color: #003399; /* #039 сокращённый вариант цвета */
+    border-bottom: 1px solid #6678b1;
+    padding: 8px 12px;
+    text-align: left;
+ }
+  /* tbody td {
+    padding: 8px 12px;
+    border-bottom: 1px solid #6678b1;
+  }  */
+  tbody tr:hover td {
+    color: #6699ff;
+  }
